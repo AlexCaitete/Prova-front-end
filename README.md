@@ -1,46 +1,34 @@
-Portfólio - Alex Alves
-Este é o meu portfólio pessoal desenvolvido como um projeto de Front-end e UX/UI Design. O site foi construído para apresentar minhas experiências, formação acadêmica e projetos desenvolvidos.
+# Portfólio Pessoal - Alex Alves
 
-🚀 Tecnologias Utilizadas
-O projeto foi desenvolvido utilizando tecnologias web fundamentais, focando em semântica e organização de estilos:
+Este é um projeto de portfólio desenvolvido para apresentar minhas competências em **Desenvolvimento Front-End e UX/UI Design**. O site foi construído com foco em organização de código, semântica e design responsivo.
 
-HTML5: Estruturação semântica do conteúdo.
+## 🚀 Tecnologias Utilizadas
 
-CSS3: Estilização avançada utilizando:
+O projeto utiliza tecnologias web fundamentais, explorando recursos modernos de estilização:
 
-CSS Grid: Para layouts complexos como a seção de experiência e formação.
+* **HTML5:** Estrutura semântica para melhor acessibilidade e SEO.
+* **CSS3:** Estilização avançada com foco em:
+    * **CSS Grid & Flexbox:** Para a criação de layouts dinâmicos e adaptáveis.
+    * **Variáveis CSS:** Centralização de cores e temas para fácil manutenção.
+    * **Arquitetura Modular:** Uso de `@import` para organizar o CSS em múltiplos arquivos específicos (Header, Introdução, Experiência, etc.).
+* **JavaScript:** Integrado para manipulação de interações no site.
 
-Flexbox: Para alinhamento de componentes como o cabeçalho e tags de habilidades.
+## 🛠️ Organização do Projeto
 
-Variáveis CSS (Custom Properties): Para manutenção de cores e temas.
+O código foi estruturado de forma a facilitar a escalabilidade:
 
-Arquitetura Modular: Organização de estilos através de múltiplos arquivos CSS importados em um arquivo central (style.css).
+* `index.html`: Arquivo principal contendo a estrutura da página.
+* `style.css`: Arquivo mestre que importa todos os componentes de estilo.
+* **Arquivos de Estilo:** Cada seção do site possui seu próprio arquivo `.css` (ex: `experiencia.css`, `formaçao.css`), garantindo um código limpo.
 
-JavaScript: Integrado para futuras funcionalidades e interatividade.
+## 🎨 Layout e Design
 
-🛠️ Estrutura do Projeto
-O código está organizado de forma modular para facilitar a leitura e manutenção:
+O design foi pensado para ser minimalista e profissional:
+* **Localização:** Recife - PE.
+* **Cores:** Paleta personalizada em tons de vermelho escuro, cinza e preto.
+* **Tipografia:** Foco em clareza com fontes sem serifa.
 
-index.html: Estrutura principal do site.
+## 📁 Como executar o projeto
 
-style.css: Arquivo central que importa todos os módulos de estilo.
-
-/css: Módulos específicos para cada seção:
-
-Global.css: Reset, variáveis de cores e estilos base.
-
-Header.css, introduçao.css, experiencia.css, formaçao.css e footer.css.
-
-🎨 Design e UI
-O layout utiliza uma paleta de cores personalizada definida no arquivo global:
-
-Cores principais: Tons de vermelho (claro e escuro), cinza, preto e branco.
-
-Tipografia: Foco em legibilidade com uso de fontes sem serifa (Arial).
-
-Responsividade: Uso de Grid e Flexbox para garantir que o conteúdo se adapte bem a diferentes telas.
-
-📁 Como visualizar o projeto
-Clone este repositório.
-
-Abra o arquivo index.html em qualquer navegador moderno.
+1. Clone o repositório.
+2. Abra o arquivo `index.html` em seu navegador de preferência.
