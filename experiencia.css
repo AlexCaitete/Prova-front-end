@@ -1,0 +1,37 @@
+.experiencia {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 80px 20px;
+    gap: 40px;
+    background-color: var(--cor-cinza);
+    color: var(--cor-preta);
+}
+
+.experiencia h2 {
+    color: var(--cor-branca);
+}
+
+.experiencia-conteudo .descricao-geral {
+    margin-bottom: 40px;
+}
+
+.projetos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.tags li {
+    background-color: var(--cor-vermelho-claro);
+    color: var(--cor-branca);
+    padding: 5px 10px;
+    font-size: 16px;
+}

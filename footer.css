@@ -1,0 +1,13 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 20px;
+    gap: 40px;
+    background-color: var(--cor-preta);
+    color: var(--cor-branca);
+}
+
+.footer-contato p {
+    margin-bottom: 10px;
+    font-size: 24px;
+}

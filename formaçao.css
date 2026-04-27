@@ -1,0 +1,32 @@
+.formacao {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 80px 20px;
+    gap: 40px;
+    background-color: var(--cor-vermelho-claro);
+    color: var(--cor-branca);
+}
+
+.formacao h2 {
+    color: var(--cor-vermelho-escuro);
+}
+
+.formacao-conteudo .descricao-geral {
+    margin-bottom: 40px;
+}
+
+.curso-item {
+    margin-bottom: 20px;
+}
+
+.curso-item .tipo {
+    font-size: 14px;
+    color: var(--cor-cinza);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.detalhe-baixo {
+    bottom: -15px;
+    left: 20px;
+}
